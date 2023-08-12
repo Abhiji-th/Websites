@@ -1,0 +1,29 @@
+body {
+    background-color: cyan;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    padding: 0 15px 10px 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    align-self: center;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(87, 87, 226);
+    border: 1px solid rgb(49, 49, 221);
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+}

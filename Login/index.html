@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <title>Login webpage</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="login-box">
+            <h1>LOGIN</h1>
+            <form method="post" action="login.php" id="login-form">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <button type="submit">Login</button>
+            </form>
+            <p>New? <a href="register.html">Register</a></p>
+        </div>
+
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+              apiKey: "AIzaSyBw0edFGX5AJBXe5xCMPMdqppxH6cQLNMI",
+              authDomain: "login-c3285.firebaseapp.com",
+              projectId: "login-c3285",
+              storageBucket: "login-c3285.appspot.com",
+              messagingSenderId: "176629608504",
+              appId: "1:176629608504:web:f4fee0738dff19737c36cd"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+        </script>
+    </body>
+</html> 
