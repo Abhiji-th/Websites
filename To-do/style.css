@@ -1,0 +1,7 @@
+input[class="item-text"] {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+}
