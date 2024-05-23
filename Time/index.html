@@ -4,14 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modalStyles.css">
 </head>
 <body>
     <div class="container">
-        <div class="main-content" id="timezone">Timezone</div>
-        <div class="main-content" id="time">Time</div>
-        <div class="main-content" id="date">Date</div>
+        <div class="main-content">
+            <div class="timezone-content">
+                <div id="timezone">Timezone</div>
+                <!-- <button class="external" data-micromodal-trigger="modal-1" data-bundle-id="1">btn</button> -->
+              </div>
+            <div id="time">Time</div>
+            <div id="date">Date</div>
+        </div>
     </div>
+
+    <!-- <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div id="modal-container" class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+          <header id="modal-header" class="modal__header">
+            <h2 class="modal__title">
+              Micromodal
+            </h2>
+            <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+          </header>
+          <div id="modal-content-content" class="modal-content-content">
+            <div id="modal-content" class="modal__content" style="display:none;">
+              
+            </div>
+            <footer id="modal-footer" class="modal__footer">
+              <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    <script src="node_modules\jquery"></script>
+    <script src="modal.js"></script>
     <script type="module" src="main.js"></script>
 </body>
 </html>
